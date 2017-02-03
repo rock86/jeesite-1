@@ -6,11 +6,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>标题难说</title>
 </head>
-<body>
-	hello world! my name is yaohailu !
-	<br /> hello world! my name is yaohailu !
-	<br /> hello world! my name is yaohailu !
-	<br /> hello world! my name is yaohailu !
-	<br /> hello world! my name is yaohailu !
+<body>dd this is only a test!
+
+
 </body>
 </html>
