@@ -18,6 +18,9 @@
 	<!-- 项目属性begin -->
 	<properties>
 		<springVersion>4.3.6.RELEASE</springVersion>
+		<apacheShiroVersion>1.3.2</apacheShiroVersion>
+		<siteMeshVersion>3.0.1</siteMeshVersion>
+
 	</properties>
 	<!-- 项目属性 end -->
 
@@ -110,6 +113,56 @@
 		</dependency>
 		<!-- spring框架相关包配置 end -->
 
+		<!-- Apache Shiro框架相关包配置 begin -->
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-core</artifactId>
+			<version>${apacheShiroVersion}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-web</artifactId>
+			<version>${apacheShiroVersion}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-aspectj</artifactId>
+			<version>${apacheShiroVersion}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-cas</artifactId>
+			<version>${apacheShiroVersion}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-ehcache</artifactId>
+			<version>${apacheShiroVersion}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-hazelcast</artifactId>
+			<version>${apacheShiroVersion}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-quartz</artifactId>
+			<version>${apacheShiroVersion}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-spring</artifactId>
+			<version>${apacheShiroVersion}</version>
+		</dependency>
+		<!-- Apache Shiro框架相关包配置 end -->
+
+		<!-- siteMesh网页布局和修饰的框架相关包配置 begin -->
+		<dependency>
+			<groupId>org.sitemesh</groupId>
+			<artifactId>sitemesh</artifactId>
+			<version>${siteMeshVersion}</version>
+		</dependency>
+		<!-- siteMesh网页布局和修饰的框架相关包配置 end -->
 	</dependencies>
 	<build>
 		<finalName>jeesite</finalName>
