@@ -47,6 +47,7 @@ JeeSite2.0 提供了常用工具进行封装，包括日志工具、缓存工具
 * 安全框架：Apache Shiro 1.3.2
 * 视图框架：Spring MVC 4.3.6
 * 服务端验证：Hibernate Validator 5.2
+* 全文检索：Apache Lucene 6.4.0
 * 布局框架：SiteMesh 3.0.1
 * 工作流引擎：Activiti 5.21
 * 任务调度：Spring Task 4.3.6
