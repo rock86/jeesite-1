@@ -58,32 +58,26 @@ JeeSite 提供了常用工具进行封装，包括日志工具、缓存工具、
 
 2、前端
 
-* JS框架：jQuery 1.9。
-* CSS框架：Twitter Bootstrap 2.3.1（稳定是后台，UI方面根据需求自己升级改造吧）。
-* 客户端验证：JQuery Validation Plugin 1.11。
-* 富文本在线编辑：CKEditor
-* 在线文件管理：CKFinder
-* 动态页签：Jerichotab
-* 手机端框架：Jingle
-* 数据表格：jqGrid
-* 对话框：jQuery jBox
-* 下拉选择框：jQuery Select2
-* 树结构控件：jQuery zTree
-* 日期控件： My97DatePicker
+* inspinia_admin-v2.7 英文原版 （注：建议大家不要使用国内翻译过来的H+，里面留了太多的东西，比如统计等等。。）
+* Responsive layout (desktops, tablets, mobile devices)
+* HTML5 & CSS3
+* Bootstrap 3.3.7
+* Boxed View, Fluid view
+* jquery-3.1.1.min
 
-4、平台
 
-* 服务器中间件：在Java EE 7规范（Servlet 2.5、JSP 2.1）下开发，支持应用服务器中间件
-有Tomcat 6+、Jboss 7+、WebLogic 10+、WebSphere 8+。
-* 数据库支持：目前仅提供MySql和Oracle数据库的支持，但不限于数据库，平台留有其它数据库支持接口，
-你可以很方便的更改为其它数据库，如：SqlServer 2008、MySql 5.5、H2等
-* 开发环境：Java、Eclipse Java EE 4.3、Maven 3.1、Git
+
+3、平台
+
+* 服务器中间件：在Java EE 7规范（Servlet 3.1.0、JSP 3.1）下开发。
+* 数据库服务器：MySql和Oracle数据库的支持。
+* 开发环境：Java8、MyEclipse 2016 CI、Maven 3.3.9 、Git。
 
 ## 安全考虑
 
 1. 开发语言：系统采用Java 语言开发，具有卓越的通用性、高效性、平台移植性和安全性。
-2. 分层设计：（数据库层，数据访问层，业务逻辑层，展示层）层次清楚，低耦合，各层必须通过接口才能接入并进行参数校验（如：在展示层不可直接操作数据库），保证数据操作的安全。
-3. 双重验证：用户表单提交双验证：包括服务器端验证及客户端验证，防止用户通过浏览器恶意修改（如不可写文本域、隐藏变量篡改、上传非法文件等），跳过客户端验证操作数据库。
+2. 分层设计：标准Spring MVC框架。
+3. 双重验证：用户表单提交双验证：包括服务器端验证及客户端验证，防止用户通过浏览器恶意修改（如不可写文本域、隐藏变量篡改、上传非法文件等），跳过客户端             验证操作数据库。
 4. 安全编码：用户表单提交所有数据，在服务器端都进行安全编码，防止用户提交非法脚本及SQL注入获取敏感数据等，确保数据安全。
 5. 密码加密：登录用户密码进行SHA1散列加密，此加密方法是不可逆的。保证密文泄露后的安全问题。
 6. 强制访问：系统对所有管理端链接都进行用户身份权限验证，防止用户直接填写url进行访问。
