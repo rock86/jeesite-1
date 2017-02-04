@@ -4,9 +4,9 @@ JeeSite2.0 是一个企业信息化开发基础平台，Java企业应用开源�
 
 
 ## 平台简介
-JeeSite是基于多个优秀的开源项目，高度整合封装而成的高效，高性能，强安全性的开源Java EE快速开发平台。
+JeeSite2.0是基于多个优秀的开源项目，高度整合封装而成的高效，高性能，强安全性的开源Java EE快速开发平台。
 
-JeeSite是您快速完成项目的最佳基础平台解决方案，JeeSite是您想学习Java平台的最佳学习案例，JeeSite还是接私活的最佳助手。
+JeeSite2.0是您快速完成项目的最佳基础平台解决方案，JeeSite2.0是您想学习Java平台的最佳学习案例，JeeSite2.0方便您个性化OEM系统。
 
 JeeSite是在Spring Framework基础上搭建的一个Java基础开发平台，以Spring MVC为模型视图控制器，MyBatis为数据访问层， Apache Shiro为权限授权层，Ehcahe对常用数据进行缓存，Activit为工作流引擎。是JavaEE界的最佳整合。
 
